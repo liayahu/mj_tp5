@@ -1,0 +1,85 @@
+---------------------------------------------------------------
+[ 2022-06-07T14:07:06+08:00 ] 127.0.0.1 GET guan.com/favicon.ico
+[运行时间：0.119737s] [吞吐率：8.35req/s] [内存消耗：968.55kb] [文件加载：31]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.1.1259448663.1622015294; _ga_7LRYQ700FD=GS1.1.1653899796.9.0.1653899796.0',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2022-06-07T14:07:07+08:00 ] 127.0.0.1 GET guan.com/
+[运行时间：0.485582s] [吞吐率：2.06req/s] [内存消耗：2,760.80kb] [文件加载：68]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.1.1259448663.1622015294; _ga_7LRYQ700FD=GS1.1.1653899796.9.0.1653899796.0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\web/../source/application/index\view\index\index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004512s ] mysql:host=127.0.0.1;port=3306;dbname=guan.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.036086s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.029650s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.021265s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9,10,11) ORDER BY `id` ASC [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.020932s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17,18,19) [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.022366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.022396s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000550s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.043128s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9,10,11) ORDER BY `id` ASC [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17,12,19) [ RunTime:0.000646s ]

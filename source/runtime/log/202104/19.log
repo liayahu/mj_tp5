@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+[ 2021-04-19T15:13:28+08:00 ] 127.0.0.1 GET guan.com/products
+[运行时间：0.162530s] [吞吐率：6.15req/s] [内存消耗：2,297.11kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/products/index',
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=27ad8qgtbdijtjubaknptn1i83',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->products[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001975s ] mysql:host=127.0.0.1;port=3306;dbname=guan.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.017137s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.012543s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 10 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10002) [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.013587s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (2) ORDER BY `id` ASC [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.012856s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (19) [ RunTime:0.000434s ]

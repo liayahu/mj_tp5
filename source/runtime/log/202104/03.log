@@ -1,0 +1,176 @@
+---------------------------------------------------------------
+[ 2021-04-03T20:31:35+08:00 ] 127.0.0.1 GET guan.com/
+[运行时间：0.208489s] [吞吐率：4.80req/s] [内存消耗：2,060.47kb] [文件加载：49]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\web/../source/application/index\view\index\index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-03T20:31:36+08:00 ] 127.0.0.1 GET guan.com/assets/assets/fonts/Flaticon.woff2
+[运行时间：0.068692s] [吞吐率：14.56req/s] [内存消耗：965.66kb] [文件加载：31]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'assets',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://guan.com/assets/index/css/flaticon.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'origin' => 'http://guan.com',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-03T20:31:36+08:00 ] 127.0.0.1 GET guan.com/assets/assets/fonts/Flaticon.woff
+[运行时间：0.093231s] [吞吐率：10.73req/s] [内存消耗：965.66kb] [文件加载：31]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'assets',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://guan.com/assets/index/css/flaticon.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'origin' => 'http://guan.com',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-03T20:31:36+08:00 ] 127.0.0.1 GET guan.com/assets/assets/fonts/Flaticon.ttf
+[运行时间：0.130432s] [吞吐率：7.67req/s] [内存消耗：965.66kb] [文件加载：31]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'assets',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://guan.com/assets/index/css/flaticon.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'origin' => 'http://guan.com',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-03T20:31:39+08:00 ] 127.0.0.1 GET guan.com/about.html
+[运行时间：0.101992s] [吞吐率：9.80req/s] [内存消耗：965.93kb] [文件加载：31]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'about',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://guan.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-03T20:31:41+08:00 ] 127.0.0.1 GET guan.com/assets/assets/fonts/Flaticon.woff
+[运行时间：0.110579s] [吞吐率：9.04req/s] [内存消耗：965.66kb] [文件加载：31]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'assets',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://guan.com/assets/index/css/flaticon.css',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'origin' => 'http://guan.com',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

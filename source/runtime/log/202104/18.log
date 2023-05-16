@@ -1,0 +1,220 @@
+---------------------------------------------------------------
+[ 2021-04-18T13:46:31+08:00 ] 127.0.0.1 GET guan.com/contact
+[运行时间：0.075997s] [吞吐率：13.16req/s] [内存消耗：1,907.70kb] [文件加载：46]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/contact/index',
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=27ad8qgtbdijtjubaknptn1i83',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->contact[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-18T15:30:59+08:00 ] 127.0.0.1 GET guan.com/product/
+[运行时间：0.045470s] [吞吐率：21.99req/s] [内存消耗：967.03kb] [文件加载：31]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'product',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=27ad8qgtbdijtjubaknptn1i83',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-18T15:32:03+08:00 ] 127.0.0.1 GET guan.com/product/
+[运行时间：0.185966s] [吞吐率：5.38req/s] [内存消耗：2,303.91kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/product/index',
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=27ad8qgtbdijtjubaknptn1i83',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->product[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011218s ] mysql:host=127.0.0.1;port=3306;dbname=guan.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.013946s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.012289s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 10 [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10002) [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.015796s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (1,2) ORDER BY `id` ASC [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.015804s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (19,20) [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2021-04-18T15:32:11+08:00 ] 127.0.0.1 GET guan.com/product/12-123
+[运行时间：0.152624s] [吞吐率：6.55req/s] [内存消耗：2,303.84kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/product/12-123',
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=27ad8qgtbdijtjubaknptn1i83',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->product[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001247s ] mysql:host=127.0.0.1;port=3306;dbname=guan.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.016604s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.012433s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 10 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10002) [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.012782s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (1,2) ORDER BY `id` ASC [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.011064s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (19,20) [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2021-04-18T15:32:29+08:00 ] 127.0.0.1 GET guan.com/product/12-123
+[运行时间：0.080845s] [吞吐率：12.37req/s] [内存消耗：1,909.39kb] [文件加载：46]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'product',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=27ad8qgtbdijtjubaknptn1i83',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => '12-123',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->product[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-18T15:34:11+08:00 ] 127.0.0.1 GET guan.com/products
+[运行时间：0.045427s] [吞吐率：22.01req/s] [内存消耗：970.51kb] [文件加载：32]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/products/index',
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=27ad8qgtbdijtjubaknptn1i83',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '}'[C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\application\index\controller\Index.php:33]
+---------------------------------------------------------------
+[ 2021-04-18T15:34:24+08:00 ] 127.0.0.1 GET guan.com/products
+[运行时间：0.155909s] [吞吐率：6.41req/s] [内存消耗：2,304.08kb] [文件加载：58]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/products/index',
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=27ad8qgtbdijtjubaknptn1i83',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3314.0 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'guan.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->products[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\guan.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011938s ] mysql:host=127.0.0.1;port=3306;dbname=guan.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.012076s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.012801s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 10 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10002) [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.015381s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (1,2) ORDER BY `id` ASC [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.012200s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (19,20) [ RunTime:0.000399s ]

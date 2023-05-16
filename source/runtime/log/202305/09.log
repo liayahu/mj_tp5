@@ -1,0 +1,533 @@
+---------------------------------------------------------------
+[ 2023-05-09T22:34:31+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.098975s] [吞吐率：10.10req/s] [内存消耗：2,041.90kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:34:37+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.038863s] [吞吐率：25.73req/s] [内存消耗：2,041.91kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:37:57+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.063720s] [吞吐率：15.69req/s] [内存消耗：2,041.91kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:41:15+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.058493s] [吞吐率：17.10req/s] [内存消耗：2,041.91kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:41:19+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.042344s] [吞吐率：23.62req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:41:21+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.040546s] [吞吐率：24.66req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:41:22+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.040337s] [吞吐率：24.79req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:41:24+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.044927s] [吞吐率：22.26req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:41:26+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.043518s] [吞吐率：22.98req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:47:17+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.088787s] [吞吐率：11.26req/s] [内存消耗：2,041.91kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'host' => 'b.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:47:22+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.044878s] [吞吐率：22.28req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:47:25+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.041881s] [吞吐率：23.88req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:47:29+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.053876s] [吞吐率：18.56req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:48:32+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.050335s] [吞吐率：19.87req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'host' => 'b.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:48:36+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.041315s] [吞吐率：24.20req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:48:39+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.042327s] [吞吐率：23.63req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:48:43+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.042637s] [吞吐率：23.45req/s] [内存消耗：2,041.79kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:49:16+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.046627s] [吞吐率：21.45req/s] [内存消耗：2,041.89kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:49:19+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.059244s] [吞吐率：16.88req/s] [内存消耗：2,041.89kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:49:22+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.046410s] [吞吐率：21.55req/s] [内存消耗：2,041.89kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:49:26+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.043427s] [吞吐率：23.03req/s] [内存消耗：2,041.89kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:49:29+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.040001s] [吞吐率：25.00req/s] [内存消耗：2,041.89kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:49:32+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.053018s] [吞吐率：18.86req/s] [内存消耗：2,041.89kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-09T22:49:36+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.046828s] [吞吐率：21.35req/s] [内存消耗：2,041.89kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File

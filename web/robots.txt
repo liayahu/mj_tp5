@@ -1,0 +1,3 @@
+Disallow: /assets/store/
+Disallow: /assets/layer/
+Sitemap: http://baobomagnet.com/sitemap.xml

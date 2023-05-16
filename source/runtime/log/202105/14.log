@@ -1,0 +1,1250 @@
+---------------------------------------------------------------
+[ 2021-05-14T02:21:49+08:00 ] 93.158.161.24 GET baobomagnet.com/index.html
+[运行时间：0.038107s] [吞吐率：26.24req/s] [内存消耗：3,235.27kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/index/index',
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip,deflate',
+  'from' => 'support@search.yandex.ru',
+  'user-agent' => 'Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)',
+  'ali-cdn-real-ip' => '93.158.161.24',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '93.158.161.24',
+  'ali-swift-stat-host' => 'level2.baobomagnet.com',
+  'ali-swift-log-host' => 'baobomagnet.com',
+  'eagleeye-traceid' => 'a3b5019c16209301091404721e',
+  'via' => 'ru6.l1, cache3.ru6, l2ot7-1.l2, cache12.l2ot7-1',
+  'host' => 'baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2021-05-14T03:41:04+08:00 ] 66.249.65.60 GET www.baobomagnet.com/
+[运行时间：0.038770s] [吞吐率：25.79req/s] [内存消耗：3,231.94kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '66.249.65.60',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '66.249.65.60',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => '0830559c16209348634933137e',
+  'via' => 'us11.l1, cache8.us11, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000433s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000586s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000571s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2021-05-14T07:01:57+08:00 ] 124.71.180.89 GET www.baobomagnet.com/
+[运行时间：0.040909s] [吞吐率：24.44req/s] [内存消耗：3,233.20kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3639.88 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN, zh; q=0.9',
+  'accept' => 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.9',
+  'ali-cdn-real-ip' => '124.71.180.89',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '124.71.180.89',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => 'b6ef681816209469166393275e',
+  'via' => 'hk13.l1, cache8.hk13, l2hk71.l2, cache31.l2hk71',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000505s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000980s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000575s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2021-05-14T07:20:27+08:00 ] 66.249.75.130 GET baobomagnet.com/blog/Distinguish-between-good-and-bad-magnets
+[运行时间：0.038944s] [吞吐率：25.68req/s] [内存消耗：3,248.12kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'index',
+    2 => 'blog',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'ali-cdn-real-ip' => '66.249.75.130',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '66.249.75.130',
+  'ali-swift-stat-host' => 'level2.baobomagnet.com',
+  'ali-swift-log-host' => 'baobomagnet.com',
+  'eagleeye-traceid' => '0830559816209480267173255e',
+  'via' => 'us11.l1, cache4.us11, l2ot7-1.l2, cache31.l2ot7-1',
+  'host' => 'baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'Distinguish-between-good-and-bad-magnets',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->blog[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/blog.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'detail',
+  6 => 'article',
+  7 => 'goods',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `search_name` = 'Distinguish-between-good-and-bad-magnets' LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` = 10003 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` = 6 ORDER BY `id` ASC [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (13) [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10 ORDER BY `article_sort` ASC LIMIT 0,10 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000589s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10 ORDER BY `goods_sort` ASC LIMIT 0,6 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8) ORDER BY `id` ASC [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16) [ RunTime:0.000216s ]
+---------------------------------------------------------------
+[ 2021-05-14T08:24:20+08:00 ] 54.36.148.141 GET www.baobomagnet.com/
+[运行时间：0.042246s] [吞吐率：23.67req/s] [内存消耗：3,231.66kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'accept-encoding' => 'deflate, gzip, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)',
+  'ali-cdn-real-ip' => '54.36.148.141',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '54.36.148.141',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => '2ff6329b16209518593546711e',
+  'via' => 'fr1.l1, cache2.fr1, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.002229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000659s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[ 2021-05-14T08:52:32+08:00 ] 66.249.65.32 GET www.baobomagnet.com/
+[运行时间：0.036822s] [吞吐率：27.16req/s] [内存消耗：3,233.11kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.97 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'amp-cache-transform' => 'google;v="1..7"',
+  'ali-cdn-real-ip' => '66.249.65.32',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '66.249.65.32',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => '0830559c16209535520864236e',
+  'via' => 'us11.l1, cache8.us11, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000435s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000568s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000244s ]
+---------------------------------------------------------------
+[ 2021-05-14T11:28:28+08:00 ] 54.36.149.68 GET baobomagnet.com/
+[运行时间：0.038214s] [吞吐率：26.17req/s] [内存消耗：3,231.64kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'accept-encoding' => 'deflate, gzip, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)',
+  'ali-cdn-real-ip' => '54.36.149.68',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '54.36.149.68',
+  'ali-swift-stat-host' => 'level2.baobomagnet.com',
+  'ali-swift-log-host' => 'baobomagnet.com',
+  'eagleeye-traceid' => '2ff6329716209629068797102e',
+  'via' => 'fr1.l1, cache2.fr1, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000439s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000807s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000675s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000243s ]
+---------------------------------------------------------------
+[ 2021-05-14T12:41:14+08:00 ] 66.249.65.44 GET www.baobomagnet.com/
+[运行时间：0.039434s] [吞吐率：25.36req/s] [内存消耗：3,231.94kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '66.249.65.44',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '66.249.65.44',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => '082db09516209672702458928e',
+  'via' => 'us15.l1, cache7.us15, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000503s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000648s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[ 2021-05-14T14:55:10+08:00 ] 124.71.180.89 GET www.baobomagnet.com/
+[运行时间：0.038376s] [吞吐率：26.06req/s] [内存消耗：3,233.20kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 8.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.1867.88 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN, zh; q=0.9',
+  'accept' => 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.9',
+  'ali-cdn-real-ip' => '124.71.180.89',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '124.71.180.89',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => 'b6ef681b16209753091141022e',
+  'via' => 'hk13.l1, cache8.hk13, l2hk71.l2, cache31.l2hk71',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000430s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000610s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2021-05-14T15:24:07+08:00 ] 40.117.185.219 GET baobomagnet.com/
+[运行时间：0.040422s] [吞吐率：24.74req/s] [内存消耗：3,231.89kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.71 Safari/534.24',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '40.117.185.219',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '40.117.185.219',
+  'ali-swift-stat-host' => 'level2.baobomagnet.com',
+  'ali-swift-log-host' => 'baobomagnet.com',
+  'eagleeye-traceid' => '2ff6169d16209770437266145e',
+  'via' => 'us13.l1, cache2.us13, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000508s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000972s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2021-05-14T15:42:06+08:00 ] 40.117.185.219 GET www.baobomagnet.com/
+[运行时间：0.040807s] [吞吐率：24.51req/s] [内存消耗：3,231.94kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.71 Safari/534.24',
+  'referer' => 'http://baobomagnet.com/',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '40.117.185.219',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '40.117.185.219',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => '2ff6169a16209781241627418e',
+  'via' => 'us13.l1, cache2.us13, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000601s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2021-05-14T15:47:52+08:00 ] 40.117.185.219 GET baobomagnet.com/about
+[运行时间：0.021004s] [吞吐率：47.61req/s] [内存消耗：2,461.48kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/about/index',
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.71 Safari/534.24',
+  'referer' => 'http://baobomagnet.com/',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '40.117.185.219',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '40.117.185.219',
+  'ali-swift-stat-host' => 'level2.baobomagnet.com',
+  'ali-swift-log-host' => 'baobomagnet.com',
+  'eagleeye-traceid' => '2ff6169a16209784698463672e',
+  'via' => 'us13.l1, cache2.us13, l2ot7-1.l2, cache26.l2ot7-1',
+  'host' => 'baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->about[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/about.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-14T15:56:25+08:00 ] 40.117.185.219 GET www.baobomagnet.com/about
+[运行时间：0.021847s] [吞吐率：45.77req/s] [内存消耗：2,461.50kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/about/index',
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.71 Safari/534.24',
+  'referer' => 'http://baobomagnet.com/about',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '40.117.185.219',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '40.117.185.219',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => '2ff6169c16209789830992753e',
+  'via' => 'us13.l1, cache2.us13, l2ot7-1.l2, cache26.l2ot7-1',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->about[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/about.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-14T15:59:01+08:00 ] 40.117.185.219 GET baobomagnet.com/contact
+[运行时间：0.020586s] [吞吐率：48.58req/s] [内存消耗：2,458.90kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/contact/index',
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.71 Safari/534.24',
+  'referer' => 'http://baobomagnet.com/',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '40.117.185.219',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '40.117.185.219',
+  'ali-swift-stat-host' => 'level2.baobomagnet.com',
+  'ali-swift-log-host' => 'baobomagnet.com',
+  'eagleeye-traceid' => '2ff6169d16209791406041823e',
+  'via' => 'us13.l1, cache5.us13, l2ot7-1.l2, cache16.l2ot7-1',
+  'host' => 'baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->contact[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/contact.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-14T16:06:26+08:00 ] 40.117.185.219 GET www.baobomagnet.com/contact
+[运行时间：0.020397s] [吞吐率：49.03req/s] [内存消耗：2,458.91kb] [文件加载：50]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/contact/index',
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/534.24 (KHTML, like Gecko) Chrome/11.0.696.71 Safari/534.24',
+  'referer' => 'http://baobomagnet.com/contact',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '40.117.185.219',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '40.117.185.219',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => '2ff6169d16209795857258442e',
+  'via' => 'us13.l1, cache5.us13, l2ot7-1.l2, cache16.l2ot7-1',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->contact[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/contact.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-05-14T17:13:17+08:00 ] 172.241.82.68 GET baobomagnet.com/
+[运行时间：0.037959s] [吞吐率：26.34req/s] [内存消耗：3,233.15kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'cache-control' => 'max-age=259200',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'ali-cdn-real-ip' => '172.241.82.68',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '172.241.82.68',
+  'ali-swift-stat-host' => 'level2.baobomagnet.com',
+  'ali-swift-log-host' => 'baobomagnet.com',
+  'eagleeye-traceid' => '2ff6169616209835959644909e',
+  'via' => 'us13.l1, cache2.us13, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000865s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2021-05-14T18:24:57+08:00 ] 66.249.65.57 GET www.baobomagnet.com/
+[运行时间：0.038472s] [吞吐率：25.99req/s] [内存消耗：3,233.11kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.97 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'amp-cache-transform' => 'google;v="1..7"',
+  'ali-cdn-real-ip' => '66.249.65.57',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '66.249.65.57',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => '0830559716209878958876487e',
+  'via' => 'us11.l1, cache8.us11, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000426s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000471s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000562s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000232s ]
+---------------------------------------------------------------
+[ 2021-05-14T19:48:32+08:00 ] 76.0.251.131 GET baobomagnet.com/
+[运行时间：0.038034s] [吞吐率：26.29req/s] [内存消耗：3,231.57kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36',
+  'ali-cdn-real-ip' => '76.0.251.131',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '76.0.251.131',
+  'ali-swift-stat-host' => 'level2.baobomagnet.com',
+  'ali-swift-log-host' => 'baobomagnet.com',
+  'eagleeye-traceid' => '2ff6169916209929113555891e',
+  'via' => 'us13.l1, cache2.us13, l2ot7-1.l2, cache25.l2ot7-1',
+  'content-length' => '0',
+  'host' => 'baobomagnet.com',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000453s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000823s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[ 2021-05-14T21:45:38+08:00 ] 54.36.149.42 GET www.baobomagnet.com/
+[运行时间：0.052235s] [吞吐率：19.14req/s] [内存消耗：3,231.66kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'accept-encoding' => 'deflate, gzip, br',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)',
+  'ali-cdn-real-ip' => '54.36.149.42',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '54.36.149.42',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => '2ff6329616209999363354311e',
+  'via' => 'fr1.l1, cache2.fr1, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000526s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000920s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2021-05-14T22:40:20+08:00 ] 66.249.65.48 GET www.baobomagnet.com/
+[运行时间：0.038698s] [吞吐率：25.84req/s] [内存消耗：3,231.94kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'accept-encoding' => 'gzip, deflate, br',
+  'user-agent' => 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'from' => 'googlebot(at)googlebot.com',
+  'accept' => 'text/html,application/xhtml+xml,application/signed-exchange;v=b3,application/xml;q=0.9,*/*;q=0.8',
+  'ali-cdn-real-ip' => '66.249.65.48',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '66.249.65.48',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => '0830559a16210032196323527e',
+  'via' => 'us11.l1, cache8.us11, l2ot7-1.l2, cache25.l2ot7-1',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000549s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000259s ]
+---------------------------------------------------------------
+[ 2021-05-14T23:08:03+08:00 ] 124.71.180.89 GET www.baobomagnet.com/
+[运行时间：0.041725s] [吞吐率：23.97req/s] [内存消耗：3,233.20kb] [文件加载：68]
+[ info ] [ LANG ] /www/wwwroot/baobomagnet.com/source/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'ali-swift-5xx-no-retry' => 'on',
+  'ali-tproxy-httpdns' => 'on',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 7.4; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.1817.88 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN, zh; q=0.9',
+  'accept' => 'text/html, application/xhtml+xml, application/xml; q=0.9, image/webp, image/apng, */*; q=0.8, application/signed-exchange; v=b3; q=0.9',
+  'ali-cdn-real-ip' => '124.71.180.89',
+  'x-client-scheme' => 'http',
+  'x-forwarded-for' => '124.71.180.89',
+  'ali-swift-stat-host' => 'level2.www.baobomagnet.com',
+  'ali-swift-log-host' => 'www.baobomagnet.com',
+  'eagleeye-traceid' => 'a3b5219b16210048824808286e',
+  'via' => 'hk10.l1, cache8.hk10, l2hk71.l2, cache31.l2hk71',
+  'host' => 'www.baobomagnet.com',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/baobomagnet.com/source/application/index/controller/Index.php ]
+[ info ] [ VIEW ] /www/wwwroot/baobomagnet.com/web/../source/application/index/view/index/index.php [ array (
+  0 => 'base_url',
+  1 => 'group',
+  2 => 'setting',
+  3 => 'route',
+  4 => 'seo',
+  5 => 'goods',
+  6 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000475s ] mysql:host=127.0.0.1;port=3306;dbname=baobomagnet.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_category` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods` [ RunTime:0.000704s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods` WHERE  `is_delete` = 0  AND `goods_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`goods_sort` ASC LIMIT 0,10 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_category` WHERE  `category_id` IN (10003,10009,10008,10007) [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_goods_image` [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_goods_image` WHERE  `goods_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_upload_file` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (5,10,12,13,15,16,17) [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_art_category` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article` WHERE  `is_delete` = 0  AND `article_status` = 10  AND `is_home` = 20 ORDER BY `sales_initial` DESC,`article_sort` ASC LIMIT 0,10 [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_art_category` WHERE  `art_category_id` IN (10003) [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_article_image` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_article_image` WHERE  `article_id` IN (3,4,5,6,7,8,9) ORDER BY `id` ASC [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_upload_file` WHERE  `file_id` IN (7,8,9,13,10,16,17) [ RunTime:0.000260s ]

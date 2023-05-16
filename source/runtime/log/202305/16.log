@@ -1,0 +1,192 @@
+---------------------------------------------------------------
+[ 2023-05-16T00:00:03+08:00 ] 127.0.0.1 GET b.com/admin/store/index
+[运行时间：0.117464s] [吞吐率：8.51req/s] [内存消耗：2,363.33kb] [文件加载：56]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.1.937303243.1682994086; _ga_7LRYQ700FD=GS1.1.1682994086.1.1.1682995003.0.0.0; PHPSESSID=k2ui0fsr7inc9l2c0oaq2rs2e0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://b.com/admin/admin.user/renew',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'b.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Store->index[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\admin\controller\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\web/../source/application/admin\view\store\index.php [ array (
+  0 => 'base_url',
+  1 => 'admin_url',
+  2 => 'group',
+  3 => 'menus',
+  4 => 'admin',
+  5 => 'version',
+  6 => 'request',
+  7 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012101s ] mysql:host=127.0.0.1;port=3306;dbname=b.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_store` [ RunTime:0.014601s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_store` LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_store` ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2023-05-16T00:00:18+08:00 ] 127.0.0.1 GET b.com/admin/store/recycle
+[运行时间：0.068963s] [吞吐率：14.50req/s] [内存消耗：1,274.80kb] [文件加载：42]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store',
+    2 => 'recycle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.1.937303243.1682994086; _ga_7LRYQ700FD=GS1.1.1682994086.1.1.1682995003.0.0.0; PHPSESSID=k2ui0fsr7inc9l2c0oaq2rs2e0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://b.com/admin/store/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'b.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-05-16T00:00:35+08:00 ] 127.0.0.1 GET b.com/admin/store/index
+[运行时间：0.104319s] [吞吐率：9.59req/s] [内存消耗：2,228.69kb] [文件加载：54]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'store',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.1.937303243.1682994086; _ga_7LRYQ700FD=GS1.1.1682994086.1.1.1682995003.0.0.0; PHPSESSID=k2ui0fsr7inc9l2c0oaq2rs2e0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://b.com/admin/admin.user/renew',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'b.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Store->index[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\admin\controller\Store.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\web/../source/application/admin\view\store\index.php [ array (
+  0 => 'base_url',
+  1 => 'admin_url',
+  2 => 'group',
+  3 => 'menus',
+  4 => 'admin',
+  5 => 'version',
+  6 => 'request',
+  7 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007675s ] mysql:host=127.0.0.1;port=3306;dbname=b.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_store` [ RunTime:0.013783s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `hishop_store` LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_store` ORDER BY `create_time` DESC LIMIT 0,15 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2023-05-16T00:00:39+08:00 ] 127.0.0.1 GET b.com/admin/admin.user/renew
+[运行时间：0.101867s] [吞吐率：9.82req/s] [内存消耗：2,112.71kb] [文件加载：49]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin.user',
+    2 => 'renew',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_ga=GA1.1.937303243.1682994086; _ga_7LRYQ700FD=GS1.1.1682994086.1.1.1682995003.0.0.0; PHPSESSID=k2ui0fsr7inc9l2c0oaq2rs2e0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://b.com/admin/store/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Safari/537.36 SE 2.X MetaSr 1.0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'b.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\admin\User->renew[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\admin\controller\admin\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\web/../source/application/admin\view\admin\user\renew.php [ array (
+  0 => 'base_url',
+  1 => 'admin_url',
+  2 => 'group',
+  3 => 'menus',
+  4 => 'admin',
+  5 => 'version',
+  6 => 'request',
+  7 => 'model',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014771s ] mysql:host=127.0.0.1;port=3306;dbname=b.com;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hishop_admin_user` [ RunTime:0.014211s ]
+[ sql ] [ SQL ] SELECT * FROM `hishop_admin_user` WHERE  `admin_user_id` = 10001 LIMIT 1 [ RunTime:0.000489s ]

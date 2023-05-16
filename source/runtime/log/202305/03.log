@@ -1,0 +1,23 @@
+---------------------------------------------------------------
+[ 2023-05-03T15:05:38+08:00 ] 127.0.0.1 GET b.com/mj_input
+[运行时间：0.073733s] [吞吐率：13.56req/s] [内存消耗：2,041.90kb] [文件加载：48]
+[ info ] [ LANG ] C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 'index/index/mj_input/index',
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'b.com',
+  'user-agent' => 'RestSharp/106.15.0.0',
+  'accept' => '*/*',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->mj_input[ C:\Users\think\my\tool\phpstudy\PHPTutorial\WWW\b.com\source\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
